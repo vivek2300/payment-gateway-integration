@@ -1,0 +1,177 @@
+<!-- HOME PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("img.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  /* background: #1abc9c; */
+  color: rgb(197, 176, 176);
+}
+.header h1 {
+    padding-top: 26px;
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(14, 133, 245);
+  opacity: 0.5;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(14, 13, 13);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right;
+}
+.navbar a:hover {
+  background-color: rgb(247, 29, 29);
+  color: black;
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(10, 10, 10);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(112, 37, 108);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0ec9c9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(248, 50, 0);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  /* background-color: #f1f1f1; */
+  padding: 20px;
+  color:#ddd
+}
+.main {
+  -ms-flex: 70%;
+  flex: 70%;
+  /* background-color: white; */
+  padding: 20px;
+  color: #ddd;
+}
+
+.footer {
+  padding: 6px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Payment Gateway Integration</h1>
+</div>
+<div class="navbar">
+  <a href="about.html" class="right"><strong>ABOUT US</strong></a>
+  <a href="payment.html" class="right"><strong>DONATE</strong></a>
+  </div>
+<div class="row">
+  <div class="side">
+    <h2 style="font-style:inherit; color: rgb(11, 227, 235);">Online Donation</h2>
+    <center><h1 style="color:rgb(255, 0, 21);">“The measure of life is not it's duration but it's donation.” - <i>Peter Marshall</i></h1></center>
+    <br>
+    <p style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;"><strong>Spark Foundation wishes health & safety for you & your dear ones. 😇 </strong></p>
+    <br>
+    <br>
+    <p><strong>Note :</strong></p>
+    <p style="font-size:20px">>> Each Happiness Kit costs Rs. 500 and contains nutritious food items, immunity boosters, hygiene kit, and learning materials.
+    <p style="font-size:20px">>> School Reopen Sanitisation Project aims at providing a safe school environment for children and teachers. The project implementation <br>cost is Rs. 11,000 per school.</p>
+    <p style="font-size:20px">>> We thank the Central Government and various State Governments for supporting us in <br>distributing the kits to our mid-day meal beneficiaries.</p>
+    <p style="font-size:20px">>> If you are a citizen of the US or the UK and prefer to avail tax exemption, please click here.</p>
+    <p style="font-size:20px">>> Support towards deficit funding for nutritious meal over & above Government subsidies.</p>
+    <p style="font-size:20px">>> If you are an account holder of Indian banks and have debit/credit cards issued by Indian banks then please<br> select Indian Donors as your donation mode.</p>
+    <p style="font-size:20px">>> If you are an account holder of International banks and have debit/credit cards issued by International banks such as Diner's Card,<br> Master Card, Amex or Visa then please select NRI / FOREIGN DONORS as your donation mode.</p></p>    <!-- <p>>> Please feel free to reach out to us to know more ☻</p> -->
+
+  </div>
+</div>
+
+<div>
+  <center><button type="button"><a href="payment.html">DONATE</a></button></center>
+</div>
+
+<div class="footer">
+  <h2>The Spark Foundation Project</h2>
+  <p style="font-size: medium;">#Task 3 by Vivek Singh</p>
+</div>
+</body>
+</html>
